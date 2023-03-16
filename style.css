@@ -1,0 +1,49 @@
+body{
+  box-sizing: border-box;
+  background-color: rgb(212, 225, 245) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+
+
+.field{
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+
+img{
+    margin-top: 10px;
+    width: 240px;
+    height:240px;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 15px;
+    color:rgb(148, 146, 146)
+}
+
+h1{
+    font-size: 20px;
+    color: rgb(1, 2, 48);
+
+}
+
+footer{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
