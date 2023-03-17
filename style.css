@@ -1,6 +1,6 @@
 body{
   box-sizing: border-box;
-  background-color: rgb(212, 225, 245) ;
+  background-color:hsl(212, 45%, 89%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,35 +10,38 @@ body{
 
 
 .field{
-    width: 250px;
-    height: 400px;
-    background-color: white;
+    max-width:300px;
+    min-height: 70vh;
+    padding:16px;
+    background-color: hsl(0, 0%, 100%);
     margin-top: 30px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     text-align: center;
+    
 }
 
 
 img{
     margin-top: 10px;
-    width: 240px;
-    height:240px;
-    border-radius: 5px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 p{
     font-size: 15px;
-    color:rgb(148, 146, 146)
+    color:hsl(220, 15%, 55%);
 }
 
 h1{
-    font-size: 20px;
-    color: rgb(1, 2, 48);
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin: 5px;
+    
 
 }
 
